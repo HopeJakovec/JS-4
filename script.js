@@ -14,6 +14,17 @@ for (let i = 0; i < arr2.length; i++) {
     }
 }
 
+// задача 3
+console.log('Задача 3');
+let arr3 = [];
+let result = 0;
+for (let i = 23; i < 57; i++) {
+    arr3.push(i);
+    result += +i;
+}
+console.log('Массив: ' + arr3);
+console.log('Сумма элементов: ' + result);
+
 // задача 4
 console.log('Задача 4');
 let arr4 = ['10', '20', '30', '50', '235', '3000'];
